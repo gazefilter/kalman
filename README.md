@@ -1,5 +1,3 @@
-# kalman-filter-rs - Kalman filters and other optimal and non-optimal estimation filters in Rust.
+# gazefilter-kalman
 
-**kalman-filter-rs** is a port of the [filterpy](https://github.com/rlabbe/filterpy) library and aims to provide Kalman filtering and optimal estimation for Rust.
-
-To learn more about Kalman filters check out Roger R Labbe Jr.'s awesome book [Kalman-and-Bayesian-Filters-in-Python](https://github.com/rlabbe/Kalman-and-Bayesian-Filters-in-Python).
+This is a custom fork of [kalmanfilt](https://github.com/trueb2/kalmanfilt) made for [gazefilter](https://github.com/gazefilter) project.
