@@ -10,7 +10,7 @@ use num_traits::Float;
 /// # Example
 ///
 /// ```
-/// use kalmanfilt::gh::GHFilter;
+/// use gazefilter_kalman::gh::GHFilter;
 /// use assert_approx_eq::assert_approx_eq;
 ///
 /// let mut fgh: GHFilter<f32> = GHFilter::new(0.0, 0.0, 0.8, 0.2, 1.0);
@@ -59,7 +59,7 @@ impl<T: FloatCore> GHFilter<T> {
     /// # Example
     ///
     /// ```
-    /// use kalmanfilt::gh::GHFilter;
+    /// use gazefilter_kalman::gh::GHFilter;
     /// let fgh = GHFilter::new(0.0, 0.0, 0.2 ,0.2, 0.01);
     /// ```
     pub fn new(x0: T, dx0: T, g: T, h: T, dt: T) -> GHFilter<T> {
@@ -121,7 +121,7 @@ impl<T: FloatCore> GHFilter<T> {
 /// # Example
 ///
 /// ```
-/// use kalmanfilt::gh::GHFilter;
+/// use gazefilter_kalman::gh::GHFilter;
 /// use assert_approx_eq::assert_approx_eq;
 ///
 /// let mut fgh: GHFilter<f32> = GHFilter::new(0.0, 0.0, 0.8, 0.2, 1.0);
@@ -178,7 +178,7 @@ impl<T: FloatCore> GHKFilter<T> {
     /// # Example
     ///
     /// ```
-    /// use kalmanfilt::gh::GHFilter;
+    /// use gazefilter_kalman::gh::GHFilter;
     /// let fgh = GHFilter::new(0.0, 0.0, 0.2 ,0.2, 0.01);
     /// ```
     pub fn new(x0: T, dx0: T, ddx0: T, g: T, h: T, k: T, dt: T) -> GHKFilter<T> {

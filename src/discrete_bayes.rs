@@ -12,7 +12,7 @@ use crate::common::vec::{shift, ShiftMode};
 /// # Example
 ///
 /// ```
-/// use kalmanfilt::discrete_bayes::normalize;
+/// use gazefilter_kalman::discrete_bayes::normalize;
 /// use assert_approx_eq::assert_approx_eq;
 ///
 /// let mut pdf = [1.0, 1.0, 1.0, 1.0];
